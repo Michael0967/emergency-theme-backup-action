@@ -1,0 +1,14 @@
+{
+  "name": "emergency-theme-backup-action",
+  "version": "1.0.0",
+  "description": "Automatically creates and maintains an Emergency Theme backup branch on every merge to main. No tokens required, simple setup.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step needed'"
+  },
+  "author": "Michael Rojas",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}
