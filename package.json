@@ -4,11 +4,14 @@
   "description": "Automatically creates and maintains an Emergency Theme backup branch on every merge to main. No tokens required, simple setup.",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'No build step needed'"
+    "build": "esbuild index.js --bundle --platform=node --target=node20 --outfile=dist/index.js --minify"
   },
   "author": "Michael Rojas",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.1"
   }
 }
